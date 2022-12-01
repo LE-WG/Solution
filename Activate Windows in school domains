@@ -1,0 +1,10 @@
+Call CMD (run as administrator)
+
+slmgr /upk ---(Note the space between. Copying is recommended. This command is used to delete the current KMS key)
+slmgr /ckms---This command is used to clear the system KMS information
+slmgr /rearm---This command is used to reset the authorization status of the computer
+
+Restart, Run command using the Win+R key (you don't need to select Administrator this time), type "Services.msc" and enter. 
+In the Services window, find the Software Protection project, right-click on it, and select "Start" from the menu.
+
+enjoy!
